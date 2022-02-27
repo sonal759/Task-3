@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Level 1 Task 3</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img7.jpg">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="nav">
+        <img class="logo" src="img2.jpg">
+        <h1>Temperature Converter</h1><i class="fa fa-home"></i>
+        
+    </div>
+    <div class="heading">
+        <!-- <h2>Convert temperature from <sup>o</sup>F to <sup>o</sup>C </h2> -->
+        <h2>Convert temperature</h2>
+    </div>
+    <div class="all">
+    <div class="container">
+        <div class="option1" onclick="handleToggle1()">
+            <h3>Select&nbsp;&nbsp;<i class="fa fa-caret-down"></i></h3>
+            <div class="op1">
+            <div class="options" onclick="getopt1('C')">
+                <h2><sup>o</sup>C</h2>
+            </div>
+            <div class="options" onclick="getopt1('F')">
+                <h2><sup>o</sup>F</h2>
+            </div>
+            </div>
+        </div>
+        <div>
+        <input type="text" class="v1">
+        </div>
+        <div class="text">
+            <h3>To</h3>
+        </div>
+        <div class="option2" onclick="handleToggle2()">
+            <h3>Select&nbsp;&nbsp;<i class="fa fa-caret-down"></i></h3>
+            <div class="op2">
+            <div class="options" onclick="getopt2('C')">
+                <h2><sup>o</sup>C</h2>
+            </div>
+            <div class="options" onclick="getopt2('F')">
+                <h2><sup>o</sup>F</h2>
+            </div>
+            </div>
+        </div>
+        <div>
+        <div type="text" class="v2"></div>
+        <div>
+        <button class="btn" onclick="calc()">Convert&nbsp;&nbsp;<i class="fa fa-exchange"></i></button>
+        </div>
+    </div>
+</div>
+</body>
+<section class="footer">
+    <h2>Developed by @ Sonal Gadewar</h2>
+</section>
+</html>
